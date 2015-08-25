@@ -6,9 +6,9 @@ function knapsack(maxWeight, weights, values) {
 
   var numItems = values.length;
 
-  var L = new Array(100);
-  for (var i = 0; i < 100; i++) {
-      L[i] = new Array(100);
+  var L = new Array(numItems + 1);
+  for (var i = 0; i <= numItems; i++) {
+      L[i] = new Array(maxWeight + 1);
   }
 
   for (var i = 0; i <= numItems; i++) {

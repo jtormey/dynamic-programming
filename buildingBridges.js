@@ -73,16 +73,3 @@ function pairThem(cities0, cities1) {
 var res = pairThem(rightBank, leftBank, rightBank);
 console.log(res);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
